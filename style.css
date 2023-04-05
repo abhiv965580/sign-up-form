@@ -18,7 +18,7 @@ body{
 }
 
 .logo-bg-img{
-    width: 40vw;
+    width: 30vw;
     height: 100vh;
 }
 
@@ -26,12 +26,12 @@ body{
   position: absolute;
   width: 100%;
   background: black;
-  opacity: 0.6;
+  opacity: 0.5;
   color: white;
-  top: 8rem;
+  top: 14rem;
   text-align: center;
   display: flex;
-  height: 20vh;
+  height: 15vh;
   justify-content: center;
 }
 
@@ -49,16 +49,19 @@ body{
 }
 
 .form-area{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
+    background: #f9fafb;
 }
 
 .info-text{
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .form > *{
@@ -78,12 +81,15 @@ body{
 
 .form{
     border-top: solid #80808040 1px;
-    font-weight: 800;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 30px 50px 30px;
     box-shadow: -1px 9px 5px -2px rgba(0, 0, 0, .5);
+    background: white;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 
 legend{
@@ -91,21 +97,25 @@ legend{
 }
 
 input{
-    border: 2px #E5E7EB solid;
+    border: 1px #E5E7EB solid;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    width:  15rem;
 }
 
 button{
     margin-top: 30px;
     font-size: 16px;
     text-align: center;
-    padding: 10px 40px 10px 40px;
+    padding: 15px 50px 15px 50px;
     background-color: #596D48;
     color: white;
     font-weight: 800;
-    border-radius: 5px;
+    border-radius: 10px;
     width: fit-content;
+    border: 0px;
+    box-shadow: 3px 3px 2px rgb(3 3 3 / 21%);
 }
 
 .footer{
@@ -119,6 +129,7 @@ button{
     font-weight:bolder;
     text-decoration: none;
 }
+
 button:hover{
     background-color: chocolate;
 }
@@ -126,11 +137,29 @@ button:hover{
 input:focus:invalid{
     border: 2px rgb(255, 0, 0) solid;
     outline: none;
-    box-shadow: 7px 8px 5px -2px rgb(73 97 215 / 62%);
+    box-shadow: 4px 4px 5px -2px rgb(73 97 215 / 62%);
 }
 
 input:focus:valid{
     border: 2px rgb(0, 255, 0) solid;
     outline: none;
-    box-shadow: 7px 8px 5px -2px rgb(73 97 215 / 62%);
+    box-shadow: 4px 4px 5px -2px rgb(73 97 215 / 62%);
+}
+
+.log-in-area{
+    font-weight: bold;
+}
+
+.error{
+    border: solid 2px red;
+}
+
+.success{
+    border: solid 2px lime;
+}
+
+.error-message{
+    font-size: 18px;
+    font-weight: 800;
+    color: red;
 }
