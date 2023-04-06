@@ -10,7 +10,7 @@ const submit = (e) => {
         confirmPassword.classList.remove('success');
         password.classList.add('error');
         confirmPassword.classList.add('error');
-        errMsg.textContent = "*Passwords don't match";
+        errMsg.textContent = "*Passwords do not match";
     }
     else{
         password.classList.remove('error');
