@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo-area">
+            <img class="logo-bg-img" src="./images/logo-bg-image.jpg" alt="Image of leaves of a plant">
+            <div class="logo-card">
+                <img src="./images/odin-logo.png" alt="odin project logo">
+                <div class="logo-text">ODIN</div>
+            </div>
+            <div class="img-footer">
+                <div class="footer-text">
+                    Photo by <u>Hailie West</u> on <u>Unsplash</u>
+                </div>
+            </div>
+        </div>
+        <div class="form-area">
+            <div class="information">
+                <p class="info-text">This is not a real online service! You need you know something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
+                <p class="info-text">You <em>know</em> you want to</p>
+            </div>
+            <form action="#">
+                <div class="form">
+                    <legend>Let's do this!</legend>
+                    <div class="full-name">
+                        <div class="first-name">
+                            <div>
+                                <label for="first_name">FIRST NAME</label>
+                            </div>
+                            <input type="text" name="first_name" id="first-name" placeholder="John" required>
+                        </div>
+                        <div class="last-name">
+                            <div>
+                                <label for="last_name">LAST NAME</label>
+                            </div>
+                            <input type="text" name="last_name" id="last-name" placeholder="Doe" required>
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <div class="email">
+                            <div>
+                                <label for="user_email">E-MAIL ADDRESS</label>
+                            </div>
+                            <input type="email" name="user_email" id="user-email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="phone-number">
+                            <div>
+                                <label for="phone_number">PHONE NUMBER</label>
+                            </div>
+                            <input type="number" name="phone_number" id="phone-number" placeholder="+91XXXXXXXXXX" required>
+                        </div>
+                    </div>
+                    <div class="security">
+                        <div class="password">
+                            <div>
+                                <label for="user_pass">PASSWORD</label>
+                            </div>
+                            <input type="password" name="user_pass" id="user-pass" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="confirm-password">
+                            <div>
+                                <label for="confirm_pass">CONFIRM PASSWORD</label>
+                            </div>
+                            <input type="password" name="confirm_pass" id="confirm-pass" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <button type="submit">Create Account</button>
+                    <p class="log-in-area">Already have an account? <a href="#" class="log-in">Log In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
