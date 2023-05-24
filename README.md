@@ -2,7 +2,7 @@
 
 This Repo introduces the Sign up form of the Odin Project's Intermediate HTML and CSS section. From this project I've implemented the use of forms and their action.
 
-The screenshot of UI is attached in this PR for reference
+The screenshot of UI is attached in this Repo for reference
 
 ## Feature:
 
