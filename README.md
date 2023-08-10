@@ -12,7 +12,7 @@ The screenshot of UI is attached in this Repo for reference
 - Added input box Focus property so that when it is selected it is highlighted with different color.
 - The **Create Account** button does not collect any information for now.
 
-### Live Link - https://abhishek310001.github.io/sign-up-form/
+### Live Link - https://abhiv965580.github.io/sign-up-form/
 
 ### Project Link - https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form
 
